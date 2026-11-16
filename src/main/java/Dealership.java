@@ -14,32 +14,32 @@ public class Dealership {
         this.inventory = new ArrayList<>();
     }
 
-    public List<Vehicle> getVehicles(float min, float max) {
+    public ArrayList<Vehicle> getVehicles(float min, float max) {
         List<Vehicle> result;
         return null;
     }
 
-    public List<Vehicle> getVehiclesByMakeModel(String make, String model) {
+    public ArrayList<Vehicle> getVehiclesByMakeModel(String make, String model) {
         List<Vehicle> result;
         return null;
     }
 
-    public List<Vehicle> getVehiclesByYear(int min, int max) {
+    public ArrayList<Vehicle> getVehiclesByYear(int min, int max) {
         List<Vehicle> result;
         return null;
     }
 
-    public List<Vehicle> getVehiclesColor(String color) {
+    public ArrayList<Vehicle> getVehiclesColor(String color) {
         List<Vehicle> result;
         return null;
     }
 
-    public List<Vehicle> getVehiclesByMilage(int min, int max) {
+    public ArrayList<Vehicle> getVehiclesByMilage(int min, int max) {
         List<Vehicle> result;
         return null;
     }
 
-    public List<Vehicle> getAllVehicles() { return inventory; }
+    public ArrayList<Vehicle> getAllVehicles() { return inventory; }
 
     public void addVehicle(Vehicle vehicle) { inventory.add(vehicle); }
 }
